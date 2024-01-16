@@ -1,0 +1,70 @@
+.virtual {
+  display: flex;
+  align-items: center;
+  
+  &__title {
+    max-width: 546px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 1.16px;
+    background: var(
+      --Gd,
+      linear-gradient(90deg, #2563eb 0.11%, #d946ef 58.65%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 200px;
+    padding-bottom: 20px;
+  }
+  &__desc {
+    max-width: 534px;
+    color: var(--desc);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 30px;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+   
+  }
+
+  &__join {
+    margin-right: 30px;
+    display: inline-flex;
+    padding: 20px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(
+      --Gardient,
+      linear-gradient(90deg, #2563eb 0.36%, #d946ef 201.02%)
+    );
+    a {
+      color: var(--nav);
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  &__video {
+    padding-left: 20px;
+
+    a {
+      color: var(--nav);
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  &__img {
+    flex-shrink: 0;
+    
+    ;
+  }
+}

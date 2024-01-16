@@ -1,0 +1,54 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 98px;
+}
+.about-zone {
+  a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 15px;
+    gap: 10px;
+  }
+  span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  a:hover {
+    color:  rgb(94,93,223); 
+    text-decoration: underline; 
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+}
+.about-service {
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.18px;
+    
+    
+  }
+  a:hover {
+    color:  rgb(94,93,223); 
+    text-decoration: underline; 
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+}
+.about-social {
+  margin-top: 10px;
+}
